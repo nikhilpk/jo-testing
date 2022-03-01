@@ -3,7 +3,7 @@ package Testapi.Testapi;
 import org.testng.annotations.*;
 import static io.restassured.RestAssured.*;
 import org.json.JSONObject;
-
+import java.util.HashMap;
 public class Testeq{
 //@Test
 public void postBodyWithJsonString() {
@@ -24,12 +24,25 @@ public void postBodyWithJsonString() {
 
 
 }
-@Test
+//@Test
 public void queryParamTest() {
 given()
 .queryParam("detail","true")
 .header("Authorization", "Bearer J6wGtwBSb8vO3lERw9NuUp72GR8m")
 .when().get("https://uatapi.equinix.com/v1/orders/workvisit/locations")
 .then().statusCode(200);
+}
+@Test
+public void queryParamTest1() {
+given()
+.queryParam("detail","true")
+.header("Authorization", "Bearer J6wGtwBSb8vO3lERw9NuUp72GR8m")
+.when().get("https://uatapi.equinix.com/v1/orders/workvisit/locations")
+.then()
+.statusCode(200)
+.log().body()
+.extract().response();
+
+
 }
 }
