@@ -5,7 +5,7 @@
     <classes>
       <class name="Testapi.Testapi.Testeq">
         <methods>
-          <include name="queryParamTest"/>
+          <include name="user"/>
         </methods>
       </class> <!-- Testapi.Testapi.Testeq -->
     </classes>

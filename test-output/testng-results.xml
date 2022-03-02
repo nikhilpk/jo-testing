@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5588" started-at="2022-03-01T16:05:48 SGT" finished-at="2022-03-01T16:05:54 SGT">
+  <suite name="Default suite" duration-ms="6219" started-at="2022-03-02T11:17:43 SGT" finished-at="2022-03-02T11:17:50 SGT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5588" started-at="2022-03-01T16:05:48 SGT" finished-at="2022-03-01T16:05:54 SGT">
+    <test name="Default test" duration-ms="6219" started-at="2022-03-02T11:17:43 SGT" finished-at="2022-03-02T11:17:50 SGT">
       <class name="Testapi.Testapi.Testeq">
-        <test-method status="PASS" signature="queryParamTest1()[pri:0, instance:Testapi.Testapi.Testeq@30b8a058]" name="queryParamTest1" duration-ms="5558" started-at="2022-03-01T16:05:48 SGT" finished-at="2022-03-01T16:05:54 SGT">
+        <test-method status="PASS" signature="user()[pri:0, instance:Testapi.Testapi.Testeq@a7e666]" name="user" duration-ms="6186" started-at="2022-03-02T11:17:43 SGT" finished-at="2022-03-02T11:17:50 SGT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- queryParamTest1 -->
+        </test-method> <!-- user -->
       </class> <!-- Testapi.Testapi.Testeq -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
